@@ -36,7 +36,7 @@ How to Pay
 # データベース設計
 [![Image from Gyazo](https://i.gyazo.com/369838634a1ea420aeb097efb4f01cf9.png)](https://gyazo.com/369838634a1ea420aeb097efb4f01cf9)
 
-# 画面遷移図
+# 画面遷移図(仮)
 
 # 開発環境
 これから掲載予定
