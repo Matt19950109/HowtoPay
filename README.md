@@ -8,10 +8,15 @@ How to Pay
 デプロイ作業実施後記載予定
 
 # テスト用アカウント
+
 ※いずれも実装後に記載予定
+
 *Basic認証パスワード：
+
 *Basic認証ID：
+
 *メールアドレス：
+
 *パスワード：
 
 # 利用方法
@@ -29,6 +34,7 @@ How to Pay
 これから掲載予定
 
 # データベース設計
+[![Image from Gyazo](https://i.gyazo.com/369838634a1ea420aeb097efb4f01cf9.png)](https://gyazo.com/369838634a1ea420aeb097efb4f01cf9)
 
 # 画面遷移図
 
