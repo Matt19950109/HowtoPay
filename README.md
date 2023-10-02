@@ -11,13 +11,13 @@ How to Pay
 
 ※いずれも実装後に記載予定
 
-* Basic認証パスワード：実装後掲載予定
+* Basic認証パスワード：○○
 
-* Basic認証ID：実装後掲載予定
+* Basic認証ID：○○
 
-* メールアドレス：実装後掲載予定
+* メールアドレス：○○
 
-* パスワード：実装後掲載予定
+* パスワード：○○
 
 # 利用方法
 
@@ -34,9 +34,10 @@ How to Pay
 実装後掲載予定
 
 # データベース設計
-[![Image from Gyazo](https://i.gyazo.com/cbc65a48fa5f742095e63a83b47be050.png)](https://gyazo.com/cbc65a48fa5f742095e63a83b47be050)
+[![Image from Gyazo](https://i.gyazo.com/ee80771084cf851b525b85a2a1277e98.png)](https://gyazo.com/ee80771084cf851b525b85a2a1277e98)
 
 # 画面遷移図(仮)
+[![Image from Gyazo](https://i.gyazo.com/d2db43ae40fa160829cfde13a465394b.png)](https://gyazo.com/d2db43ae40fa160829cfde13a465394b)
 
 # 開発環境
 実装後掲載予定
