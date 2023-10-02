@@ -8,11 +8,16 @@ How to Pay
 デプロイ作業実施後記載予定
 
 # テスト用アカウント
+
 ※いずれも実装後に記載予定
-*Basic認証パスワード：
-*Basic認証ID：
-*メールアドレス：
-*パスワード：
+
+* Basic認証パスワード：○○
+
+* Basic認証ID：○○
+
+* メールアドレス：○○
+
+* パスワード：○○
 
 # 利用方法
 
@@ -23,26 +28,28 @@ How to Pay
 [要件を定義したシート](https://docs.google.com/spreadsheets/d/1jP8tTWUcF3JVo-FiTMwFQIT7E4KCak81adMUlyMeBek/edit#gid=982722306)
 
 # 実装した機能についての画像やGIFおよびその説明※
-これから実装予定
+実装後掲載予定
 
 # 実装予定の機能
-これから掲載予定
+実装後掲載予定
 
 # データベース設計
+[![Image from Gyazo](https://i.gyazo.com/ee80771084cf851b525b85a2a1277e98.png)](https://gyazo.com/ee80771084cf851b525b85a2a1277e98)
 
-# 画面遷移図
+# 画面遷移図(仮)
+[![Image from Gyazo](https://i.gyazo.com/d2db43ae40fa160829cfde13a465394b.png)](https://gyazo.com/d2db43ae40fa160829cfde13a465394b)
 
 # 開発環境
-これから掲載予定
+実装後掲載予定
 
 # ローカルでの動作方法
-これから掲載予定
+実装後掲載予定
 
 # 工夫したポイント
-これから掲載予定
+実装後掲載予定
 
 # 改善点
-これから掲載予定
+実装後掲載予定
 
 # 制作時間
-これから掲載予定
+実装後掲載予定
