@@ -11,13 +11,13 @@ How to Pay
 
 ※いずれも実装後に記載予定
 
-*Basic認証パスワード：
+* Basic認証パスワード：実装後掲載予定
 
-*Basic認証ID：
+* Basic認証ID：実装後掲載予定
 
-*メールアドレス：
+* メールアドレス：実装後掲載予定
 
-*パスワード：
+* パスワード：実装後掲載予定
 
 # 利用方法
 
@@ -28,27 +28,27 @@ How to Pay
 [要件を定義したシート](https://docs.google.com/spreadsheets/d/1jP8tTWUcF3JVo-FiTMwFQIT7E4KCak81adMUlyMeBek/edit#gid=982722306)
 
 # 実装した機能についての画像やGIFおよびその説明※
-これから実装予定
+実装後掲載予定
 
 # 実装予定の機能
-これから掲載予定
+実装後掲載予定
 
 # データベース設計
-[![Image from Gyazo](https://i.gyazo.com/369838634a1ea420aeb097efb4f01cf9.png)](https://gyazo.com/369838634a1ea420aeb097efb4f01cf9)
+[![Image from Gyazo](https://i.gyazo.com/cbc65a48fa5f742095e63a83b47be050.png)](https://gyazo.com/cbc65a48fa5f742095e63a83b47be050)
 
 # 画面遷移図(仮)
 
 # 開発環境
-これから掲載予定
+実装後掲載予定
 
 # ローカルでの動作方法
-これから掲載予定
+実装後掲載予定
 
 # 工夫したポイント
-これから掲載予定
+実装後掲載予定
 
 # 改善点
-これから掲載予定
+実装後掲載予定
 
 # 制作時間
-これから掲載予定
+実装後掲載予定
