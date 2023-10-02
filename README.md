@@ -2,7 +2,7 @@
 How to Pay
 
 # アプリケーション概要
-決済方法ごとに支出額を確認できるアプリ
+決済方法ごとに支出額を確認できる家計簿アプリ
 
 # URL
 デプロイ作業実施後記載予定
@@ -34,7 +34,61 @@ How to Pay
 実装後掲載予定
 
 # データベース設計
-[![Image from Gyazo](https://i.gyazo.com/ee80771084cf851b525b85a2a1277e98.png)](https://gyazo.com/ee80771084cf851b525b85a2a1277e98)
+[![Image from Gyazo](https://i.gyazo.com/1a61925c9f59c9695a4dd7edb6cce2ac.png)](https://gyazo.com/1a61925c9f59c9695a4dd7edb6cce2ac)
+
+## usersテーブル 
+| Column             | Type    | Options                   |
+| ------------------ | ------- | ------------------------- |
+| email              | string  | null: false, unique: true |
+| encrypted_password | string  | null: false               |
+| nickname           | string  | null: false               |
+
+### association
+- has_many :banks
+- has_many :settlements
+- has_many :spendings
+
+
+## banksテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| name               | string     | null: false                    |
+| amount_price       | integer    | null: false                    |
+| user               | references | null: false, foreign_key: true |
+
+### association
+- belongs_to :user
+- has_many   :settlement
+
+
+## settlementsテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| payment            | string     | null: false                    |
+| user               | references | null: false, foreign_key: true |
+| bank               | references | null: false, foreign_key: true |
+
+### association
+- belongs_to :user
+- belongs_to :bank
+- has_many   :spendings
+
+
+## spendingsテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| price              | integer    | null: false                    |
+| item_name          | string     | null: false                    |
+| category           | integer    | null: false                    |
+| start_time         | date       | null: false                    |
+| user               | references | null: false, foreign_key: true |
+| settlement         | references | null: false, foreign_key: true |
+
+### association
+- belongs_to             :user
+- belongs_to             :settlement
+- belongs_to_active_hash :category
+
 
 # 画面遷移図(仮)
 [![Image from Gyazo](https://i.gyazo.com/d2db43ae40fa160829cfde13a465394b.png)](https://gyazo.com/d2db43ae40fa160829cfde13a465394b)
